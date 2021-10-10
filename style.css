@@ -1,0 +1,352 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section1 {
+    background-image: url(img/‘Everybody\ wants\ to\ build\ and\ nobody\ wants\ to\ do\ maintenance’.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+}
+
+.getstart {
+    width: 100%;
+    height: 60vh;
+    padding-top: 12vh;
+    color: white;
+    text-align: center;
+}
+
+.getstart h1 {
+    margin: 0%;
+    letter-spacing: 2px;
+}
+
+.getstart-content button {
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(98, 0, 255, 0.808);
+}
+
+.getstart-content h1 {
+    font-size: 40px;
+}
+
+.getstart-content h1 span {
+    color: rgb(0, 255, 0);
+    font-size: 18px;
+}
+
+.media {
+    margin-top: 25px;
+}
+
+.media a {
+    color: white;
+    margin-left: 15px;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.aboutme {
+    display: flex;
+    width: 90%;
+}
+
+.myimg {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myimg img {
+    width: 350px;
+    height: 300px;
+}
+
+.myinfo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.myinfo p {
+    font-size: 24px;
+}
+
+.myinfo p::before {
+    content: '\201c';
+    width: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-right: 2rem;
+}
+
+.myinfo p::after {
+    content: '\201d';
+    width: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 2rem;
+}
+
+.section3 {
+    width: 100%;
+    justify-content: center;
+}
+
+.portofolio {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.portofolio h3 {
+    color: rgba(128, 128, 128, 0.801);
+}
+
+.myblog {
+    width: 100%;
+    display: flex;
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 75%;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.info {
+    width: 50%;
+}
+
+.info h1 {
+    align-items: center;
+    width: 100%;
+}
+
+.info p span {
+    color: blue;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    width: 100px;
+    margin-top: 6px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color: rgb(0, 0, 148);
+}
+
+.preview {
+    width: 100px;
+    height: 45px;
+    background-color: blue;
+    border: solid blue 2px;
+    color: white;
+    border-radius: 30px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.visite {
+    width: 100px;
+    height: 45px;
+    background-color: white;
+    color: blue;
+    border: blue 2px solid;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.cardensemble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card {
+    width: 33%;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.cardimg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardimg img {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px 12px;
+}
+
+.cardcontent {
+    padding: 15px;
+}
+
+.cardcontent p {
+    width: 95%;
+    text-align: center;
+}
+
+
+/* contact us */
+
+.contact {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.username,
+.email {
+    width: 35%;
+    height: 40px;
+    color: #000;
+    margin-left: 5px;
+    border: 2px solid blue;
+    font-size: 18px;
+}
+
+.message {
+    margin-top: 10px;
+    width: 70%;
+    height: 80px;
+    color: #000;
+    border: 2px solid blue;
+    font-size: 18px;
+    overflow: scroll;
+}
+
+.send {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.send:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(91, 94, 255, 0.397);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .getstart-content h1 {
+        font-size: 30px;
+    }
+    .aboutme {
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .cardensemble {
+        display: block;
+    }
+    .card {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+    .myimg,
+    .myinfo {
+        width: 100%;
+    }
+    .myinfo p {
+        font-style: italic;
+    }
+    .myblog {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 7px;
+        width: auto !important;
+        margin: 8px;
+    }
+    .img {
+        width: 100%;
+    }
+    .img img {
+        width: 98%;
+        height: auto;
+    }
+    .blogimg {
+        width: 90%;
+        display: block;
+    }
+    .info {
+        width: 90%;
+    }
+    .no {
+        display: block;
+    }
+    .username,
+    .email {
+        width: 90%;
+        margin-bottom: 8px;
+    }
+    .message {
+        width: 89%;
+    }
+    .footer p {
+        font-size: 12px
+    }
+}
